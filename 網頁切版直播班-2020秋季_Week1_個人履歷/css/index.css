@@ -1,0 +1,188 @@
+img{
+    display: block;
+}
+
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+
+.header .container{
+    margin-top:47px;
+    border-bottom: 1px solid #000000;
+    opacity: 1;
+    padding-bottom: 17px;
+}
+
+.header .container span{
+    text-align: left;
+    font: normal normal normal 80px/94px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.photo .container{
+    margin-top: 48px;    
+}
+
+.photo .container .sticker{
+    width: 324px;
+    height: 324px;
+    background: transparent url('https://hexschool.github.io/webLayoutTraining1st/week1/photo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.profile .container{
+    margin-top: 48px;
+}
+
+.titleTW{
+    text-align: left;
+    font: normal normal normal 32px/43px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display: inline;
+    margin-right: 16px;
+}
+
+.titleENG{
+    text-align: left;
+    font-size: 24px;
+    font-family: normal;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+    display: inline;
+}
+
+.titleBox{
+    width: 1200px;
+    border-bottom: 1px solid #000000;
+    opacity: 1;
+    padding-bottom: 8px;
+}
+
+.profile .container .content{
+    padding-top: 16px;
+    text-align: left;
+    font: normal normal normal 24px/36px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.education{
+    margin-top: 72px;
+}
+
+.education .container .content{
+    text-align: left;
+    font: normal normal normal 24px/36px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.skills .container,.footer .container{
+    width: 100%;
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top:72px;
+    padding-bottom: 36px;
+}
+
+.skills .container .titleBox,.footer .container .titleBox{
+    text-align: center;
+    width: 996px;
+    margin:0 auto;
+    border-bottom: 1px solid #FFFFFF;
+    opacity: 1;
+    padding-top: 24px;
+}
+
+.skills .container .titleBox .titleTW,.footer .container .titleBox .titleTW{
+    font: normal normal medium 32px/45px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.skills .container .titleBox .titleENG,.footer .container .titleBox .titleENG{
+    font: normal normal normal 24px/28px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.skills .container .sikllList{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+    opacity: 1;
+
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.workExperience .container{
+    margin-top: 72px;
+}
+
+.workExperience .container .workExperienceListUP,.workExperience .container .workExperienceListDown{
+    margin-left: 24px;
+    padding-left:24px;
+    width:640px;
+    margin-top:16px;
+    border-left: 1px solid #96A9C4;
+    opacity: 1;
+
+    text-align: left;
+    font: normal normal normal 24px/36px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.workExperience .container .workExperienceListUP{
+    padding-bottom:24px;
+}
+
+.workExperience .container .workExperienceListDown{
+    line-height: 48px;
+    margin-top: 0px;
+}
+
+.workExperience .container .workExperienceListUP .small{
+    text-align: left;
+    font: normal normal normal 20px/30px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.footer .container .titleBox{
+    width: 1200px;
+}
+
+.footer .container .content{
+    margin-top: 32px;
+    text-align: center;
+    font: normal normal 300 24px/36px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.footer .container .content .socialMedia{
+    margin-top:16px;
+}
+
+.footer .container .content .socialMedia svg{
+    margin-left: 24px;
+}
