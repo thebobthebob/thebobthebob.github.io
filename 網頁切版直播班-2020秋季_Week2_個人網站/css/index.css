@@ -1,6 +1,6 @@
 
 .cover{
-    background-image: url("../image/banner.png");
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true");
     height: calc(100vh);
     background-position:center center;
     background-size: cover;
