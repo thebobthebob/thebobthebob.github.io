@@ -1,0 +1,193 @@
+
+.cover{
+    background-image: url("../image/banner.png");
+    height: calc(100vh);
+    background-position:center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover .container{
+    width:304px;
+}
+
+.cover .container h1{
+    font: italic normal 900 80px/94px Roboto;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.cover .container p{
+    font: italic normal bold 24px/42px Roboto;
+    color: #FFFFFF;
+}
+
+.cover .container .socialMedia{
+    width: 304px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top:48px;
+}   
+
+.about .container{
+    width: 412px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about .container h2{
+    margin-top:64px;
+    font: italic normal 64px/75px Roboto;
+    color: #000000;
+}
+
+.about .container img{
+    width: 384px;
+    height: 384px;
+    margin-top:40px;
+}
+
+.about .container p{
+    font: italic normal bold 24px/42px Roboto;
+    color: #000000;
+}
+
+.about .container .line{
+    width: 384px;
+    margin:0 auto;
+    margin-top:24px;
+    margin-bottom: 32px;
+    border:1px solid #000000;
+}
+
+.about .container ul{
+    margin-bottom: 56px;
+}
+
+.about .container ul .dot {
+    height: 22px;
+    width: 22px;
+    background-color: #891818;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 16px;
+  }
+
+  .about .container ul .dotLi{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .brand{
+    background-color:#000000;
+  }
+
+  .brand .container .myBrand{
+    margin:0 auto;
+    width:1200px;
+    text-align: center;
+  }
+
+  .brand .container .myBrand h1{
+    font: italic normal 64px/75px Roboto;
+    color: #FFFFFF;
+    padding-top:64px;
+  }
+
+  .brand .container .myBrand h2{
+    font: italic normal 24px/42px Roboto;
+    color: #FFFFFF;
+    padding-top:16px;
+  }
+
+  .brand .container .myBrand .brandDescription{
+    font: italic normal 20px/30px Roboto;
+    color: #FFFFFF;
+    padding-top:32px;
+  }
+
+  .brand .container .myBrand img{
+    width: 588px;
+    height: 416px;
+  }
+
+  .brand .container .myBrand #img1{
+    width:792px;
+    padding-top:68px;
+  }
+
+  .brand .container .myBrand #img2{
+    padding-right: 24px;
+  }
+
+  .brand .container .myBrand #img2,.brand .container .myBrand #img3{
+    padding-top:40px;
+    padding-bottom:160px;
+  }
+
+  .works .container{
+      width:1200px;
+      margin:0 auto;
+      text-align: center;
+  }
+
+  .works .container h1{
+    font: italic normal 64px/75px Roboto;
+    color: #000000;
+    padding-bottom: 24px;
+  }
+
+  .works .container .worksDescription{
+    margin: 0 auto;
+    margin-bottom: 56px;
+    width:266px;
+  }
+
+  .works .container p{
+    font: italic normal 20px/30px Roboto;
+    color: #000000;
+  }
+
+  .works .container .poster p{
+    margin-top: 16px;
+  }
+
+  .works .container .posterGroup{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
+  .works .container .posterGroup2,.works .container .posterGroup3{
+    margin-top: 56px;
+  }
+
+  .footer{
+    background-color:black;
+    text-align: center;
+  }
+
+  .footer .container{
+      width: 315px;
+      margin:0 auto;
+      margin-top: 160px;
+      padding-bottom: 80px;
+  }
+
+  .footer .container h1{
+    padding-top: 64px;
+    font: italic normal 64px/75px Roboto;
+    color: #FFFFFF;
+  }
+
+  .footer .container p{
+    padding-top: 16px;
+    font: italic normal 24px/36px Roboto;
+    color: #FFFFFF;
+  }
